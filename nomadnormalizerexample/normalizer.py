@@ -1,9 +1,8 @@
-from nomad.normalizing import Normalizer
 from nomad.datamodel.metainfo.workflow import Workflow
+from nomad.normalizing import Normalizer
 
 
 class ExampleNormalizer(Normalizer):
-
     domain = None
 
     def normalize(self, logger):
